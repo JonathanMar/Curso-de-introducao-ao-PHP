@@ -13,6 +13,10 @@ h1, h2, h3{
     text-align: center;
 }
 
+.cabecalho {
+    background-color: blue;
+}
+
 .aulas {
     display: flex;
     flex-wrap: wrap;

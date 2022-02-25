@@ -32,8 +32,8 @@
         </ul>
     </main>
 </div>
-    <!-- <footer class="rodape"> 
+    <footer class="rodape"> 
         <?= date('Y'); ?>
-    </footer> -->
+    </footer> 
 </body>
 </html>
