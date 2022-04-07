@@ -40,3 +40,14 @@ h1, h2, h3{
     color: #222;
     text-decoration: none;
 }
+
+.rodape {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: right;
+}
+
+.rodape p {
+    margin: 20px;
+}

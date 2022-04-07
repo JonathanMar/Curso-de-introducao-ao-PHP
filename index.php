@@ -29,11 +29,17 @@
             <li><a href="arquivos/07-constantes.php"> Constantes </a></li>
             <li><a href="arquivos/08-arrays.php"> Arrays </a></li>
             <li><a href="arquivos/09-funcoes_de_arrays.php"> Funções de arrays </a></li>
+            <li><a href="arquivos/10-condicionais.php"> Condicionais </a></li>
+            <li><a href="arquivos/11-operadores-aritimeticos.php"> Operadores aritméticos </a></li>
+            <li><a href="arquivos/13-operadores-de-atribuicao.php"> Operadores de atribuição </a></li>
+            <li><a href="arquivos/14-operadores-de-comparacao.php"> Operadores de comparação </a></li>
+            <li><a href="arquivos/15-operadores-logicos.php"> Operadores Lógicos </a></li>
+
+
+            <!-- <li><a href="link.php?dir=11-operadores-aritimeticos.php">  aritméticos</a></li>
+            <li><a href="link.php?dir=11-operadores-aritimeticos.php">  aritméticos</a></li> -->
         </ul>
     </main>
 </div>
-    <footer class="rodape"> 
-        <?= date('Y'); ?>
-    </footer> 
 </body>
 </html>
