@@ -34,6 +34,10 @@
             <li><a href="arquivos/13-operadores-de-atribuicao.php"> Operadores de atribuição </a></li>
             <li><a href="arquivos/14-operadores-de-comparacao.php"> Operadores de comparação </a></li>
             <li><a href="arquivos/15-operadores-logicos.php"> Operadores Lógicos </a></li>
+            <li><a href="arquivos/16-while-dowhile.php"> While & Dowhile </a></li>
+            <li><a href="arquivos/17-for-foreach.php"> For Foreach </a></li>
+            <li><a href="arquivos/18-funcoes-para-strings.php"> Funções para Strings </a></li>
+            <li><a href="arquivos/20-criando-funcao.php"> Funções para Números </a></li>
 
 
             <!-- <li><a href="link.php?dir=11-operadores-aritimeticos.php">  aritméticos</a></li>
