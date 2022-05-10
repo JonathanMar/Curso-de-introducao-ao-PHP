@@ -38,10 +38,10 @@
             <li><a href="arquivos/17-for-foreach.php"> For Foreach </a></li>
             <li><a href="arquivos/18-funcoes-para-strings.php"> Funções para Strings </a></li>
             <li><a href="arquivos/20-criando-funcao.php"> Funções para Números </a></li>
-
-
-            <!-- <li><a href="link.php?dir=11-operadores-aritimeticos.php">  aritméticos</a></li>
-            <li><a href="link.php?dir=11-operadores-aritimeticos.php">  aritméticos</a></li> -->
+            <li><a href="arquivos/21-superglobais.php"> Super Globais </a></li>
+            <li><a href="arquivos/22-formularios/index.php"> Formulário </a></li>
+            <li><a href="arquivos/22-formularios/validacao.php"> Validação de dados </a></li>
+            <li><a href="arquivos/23-upload/index.php"> Upload de arquivos </a></li>
         </ul>
     </main>
 </div>
