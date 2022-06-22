@@ -43,6 +43,8 @@
             <li><a href="arquivos/aulas/22-formularios/validacao.php"> Validação de dados </a></li>
             <li><a href="arquivos/aulas/23-upload/index.php"> Upload de arquivos </a></li>
             <li><a href="arquivos/aulas/23-upload/index.php"> Upload de arquivos multiplos </a></li>
+
+            <li><a href="arquivos/aulas/ajax/index.php"> Teste Ajax </a></li>
         </ul>
     </main>
 </div>
