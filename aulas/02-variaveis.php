@@ -1,4 +1,7 @@
 <?php
+
+ include("menu.php");
+
 // Meus dados
 $nome = "Jonathan";
 $idade = 17;
