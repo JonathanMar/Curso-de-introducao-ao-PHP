@@ -1,4 +1,7 @@
 <?php
+
+include("..\aulas\menu.php");
+
 // Escopo global
 $nome = "Alisson";
 $a = 1;

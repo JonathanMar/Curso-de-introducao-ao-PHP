@@ -1,6 +1,6 @@
+   <!-- Menu -->
 <?php
-
- include("menu.php");
+include("..\aulas\menu.php");
 
 // Meus dados
 $nome = "Jonathan";

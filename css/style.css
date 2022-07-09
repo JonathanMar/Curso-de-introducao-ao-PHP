@@ -62,12 +62,16 @@ h1, h2, h3{
 }
 
 .menu-container {
-    background-color: yellowgreen;
-    text-decoration: none;
     cursor: pointer;
     width: 100%;
     padding: 1rem;
     margin: 0 50rem 0 50rem;
     display: flex;
     justify-content: space-evenly;
+    color: #adbac7;
+    text-transform: uppercase;
+}
+
+.menu-text{
+    padding: 0 1rem 0 1rem;
 }

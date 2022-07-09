@@ -1,4 +1,7 @@
 <?php
+
+include("..\aulas\menu.php");
+
 // While & Do While
 
 $contador = 1;

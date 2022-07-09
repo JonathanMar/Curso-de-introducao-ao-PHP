@@ -1,4 +1,7 @@
 <?php
+
+include("..\aulas\menu.php");
+
 // $GLOBALS
 // $_SERVER
 // $_REQUEST

@@ -1,4 +1,7 @@
 <?php
+
+include("..\aulas\menu.php");
+
 // Variáveis variaveis
 $bebida = "refrigerantes";
 

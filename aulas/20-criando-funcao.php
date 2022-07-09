@@ -1,4 +1,7 @@
 <?php
+
+include("..\aulas\menu.php");
+
 // Função para números
 // number_format
 // round

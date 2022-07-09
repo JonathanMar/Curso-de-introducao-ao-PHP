@@ -1,4 +1,7 @@
 <?php
+
+include("..\aulas\menu.php");
+
 // Array numéricos
 $carros = array(1=>"Tesla Model S", 2=>"Tesla Model X", 3=>"Tesla Model S Plaid");
 $carros[4] = "Tesla Model 3";

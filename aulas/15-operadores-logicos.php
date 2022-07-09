@@ -1,4 +1,7 @@
 <?php
+
+include("..\aulas\menu.php");
+
 // Operadores lógicos 
 // Nos permitem fazer comparações entre expressões 
 // e (&& - and)

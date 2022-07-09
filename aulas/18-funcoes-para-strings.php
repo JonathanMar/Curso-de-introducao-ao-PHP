@@ -1,4 +1,7 @@
 <?php
+
+include("..\aulas\menu.php");
+
 // Funções para Strings 
 // strtoupper
 // strtolower
