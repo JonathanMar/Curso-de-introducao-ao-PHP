@@ -8,6 +8,10 @@
 </head>
 <body>
 
+<?php
+    include("..\aulas\menu.php");
+?>
+
 <p>
     <form action="dados.php" method="POST">
         Nome: <input type="text" name="nome"><br>

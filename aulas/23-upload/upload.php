@@ -9,6 +9,9 @@
 <body>
 
 <?php
+
+include("..\aulas\menu.php");
+
 if(isset($_POST['enviar-formulario'])):
     $formatosPermitidos = array("png", "jpeg", "jpg", "gif");
     $extensao = pathinfo($_FILES['arquivo']['name'], PATHINFO_EXTENSION);

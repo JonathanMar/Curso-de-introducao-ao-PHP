@@ -10,6 +10,9 @@
 
 
 <?php
+
+    include("..\aulas\menu.php");
+
 if(isset($_POST['enviar-formulario'])):
     // Arrays de erros
     $erros=array();

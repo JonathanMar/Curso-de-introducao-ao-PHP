@@ -5,15 +5,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,300&display=swap" rel="stylesheet">
 <nav>   
 
-    <div class="container"> 
+    <nav class="container"> 
       <div class="menu-container">
         <div href="#" class="menu-text"> Indice </div>
-        <div href="../index.php" class="menu-text"> Home </div>
+        <div href="../../index.php" class="menu-text"> Home </div>
       </div>
-    </div>
+    </nav>
 </nav>
 
-<?php
+<?php 
 
   $var = 'Hacklang'
 

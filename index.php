@@ -49,9 +49,9 @@
             <li><a href="aulas/22-formularios/index.php"> Formulário </a></li>
             <li><a href="aulas/22-formularios/validacao.php" rel="next"> Validação de dados </a></li>
             <li><a href="aulas/23-upload/upload.php" rel="next"> Upload de arquivos </a></li>
-            <li><a href="aulas/23-upload.php" rel="next"> Upload de arquivos multiplos </a></li>
+            <li><a href="aulas/23-upload/upload_multiplos.php" rel="next"> Upload de arquivos multiplos </a></li>
 
-            <li><a href="aulas/ajax/index.php"> Teste Ajax </a></li>
+            <li><a href="aulas/ajax/coments.php" rel="next"> Teste Ajax </a></li>
         </ul>
     </main>
 </div>

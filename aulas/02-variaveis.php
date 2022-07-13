@@ -1,3 +1,8 @@
+<html>
+<link rel="stylesheet" href="../css/style.css">
+</html>
+   
+   
    <!-- Menu -->
 <?php
 include("..\aulas\menu.php");
