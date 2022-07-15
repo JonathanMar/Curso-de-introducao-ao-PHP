@@ -18,9 +18,9 @@
         include("aulas\menu.php");
    ?>
 
-    <header> 
+    <section> 
         <h2> Curso de introdução ao PHP </h2> 
-    </header>
+    </section>
 
     <main> 
         <h3>- Índice -</h3>

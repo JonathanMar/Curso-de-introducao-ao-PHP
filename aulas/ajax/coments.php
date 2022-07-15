@@ -25,13 +25,22 @@
         </div>
             </form>
 
-            <div class="coments-table">
-                <div class="coments-title"> Comentários </div>
-
-                <div class="coments-coments"> 
-
+            <section class="coments-table">
+                <div class="coments-box">
+                  <div class="coments-box-username"> Nome de usuário </div>
+                  <div class="coments-box-coment"> Comentário </div>
                 </div>
 
-            </div>
+                <div class="coments-box">
+                  <div class="coments-box-username"> Nome de usuário </div>
+                  <div class="coments-box-coment"> Comentário </div>
+                </div>
+
+                <div class="coments-box">
+                  <div class="coments-box-username"> Nome de usuário </div>
+                  <div class="coments-box-coment"> Comentário </div>
+                </div>
+
+            </section>
 </body>
 </html>
