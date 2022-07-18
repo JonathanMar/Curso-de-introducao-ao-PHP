@@ -47,6 +47,7 @@ h1, h2, h3{
     background-color: rgb(148, 148, 148);
     border-radius: 15rem;
     transition-delay: 30ms;
+    padding: 10px 10px 10px 15px;
 }
 
 .rodape {
@@ -84,4 +85,33 @@ h1, h2, h3{
 
 .menu-text{
     padding: 0 1rem 0 1rem;
+}
+
+/* COMENTÁRIOS  */
+.coments-title{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.coments-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 700px 0px 700px;
+}
+.coments-table {
+    display: flex;
+    flex-wrap:column;
+    justify-content: center;
+}
+
+.coments-btn{
+    background-color: #d44179;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
 }

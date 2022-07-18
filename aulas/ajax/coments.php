@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste com Ajax</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>Curso de introdução ao PHP</title>
 </head>
 <body>
+
+   <!-- Menu -->
+   <?php
+        include("..\menu.php");
+   ?>
+
     <form action="#" method="post">
         <div class="coments-container">
-            <div class="coments-title">  Deixe aqui o seu comentário </div>
+            <div class="coments-title">  Deixe aqui o seu comentário! </div>
 
             <label for="coments-name">
                 <span> Nome: </span>
@@ -19,9 +26,10 @@
             <label for="coments-coment"> </label>
             <textarea name="coments-coment" cols="30" rows="10" placeholder="Deixe aqui o seu comentário!"></textarea>
 
-            <button> Publicar </button>
+            <button class="coments-btn" type="submit" name="btn"> Publicar </button>
             <!-- <h2> Comentário publicado com sucesso! </h2> -->
             <!-- <h2> Erro! Preencha todos os campos! -->
+
         </div>
             </form>
 
