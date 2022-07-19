@@ -13,24 +13,24 @@
    <?php
         include("..\menu.php");
    ?>
-
-    <form action="#" method="post">
+                
+    <form action="..\..\bd\comentar.php" method="post">
         <div class="coments-container">
             <div class="coments-title">  Deixe aqui o seu comentário! </div>
 
             <label for="coments-name">
                 <span> Nome: </span>
             </label>
-            <input type="text" class="coments-name" placeholder="" name="coments-name">
+            <input type="text" id="coments-name" class="coments-name" name="coments-name" id="coments-name">
 
             <label for="coments-coment"> </label>
-            <textarea name="coments-coment" cols="30" rows="10" placeholder="Deixe aqui o seu comentário!"></textarea>
+            <textarea id="coments-coment" name="coments-coment" cols="30" rows="10" placeholder="Deixe aqui o seu comentário!"></textarea>
 
             <button class="coments-btn" type="submit" name="btn"> Publicar </button>
             <!-- <h2> Comentário publicado com sucesso! </h2> -->
             <!-- <h2> Erro! Preencha todos os campos! -->
 
-        </div>
+        
             </form>
 
             <section class="coments-table">
@@ -48,7 +48,8 @@
                   <div class="coments-box-username"> Nome de usuário </div>
                   <div class="coments-box-coment"> Comentário </div>
                 </div>
-
             </section>
+            
+          </div>
 </body>
 </html>
