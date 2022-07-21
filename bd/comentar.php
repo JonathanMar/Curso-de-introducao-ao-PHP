@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 include ('conexao.php');
 $usuario = $_POST['coments-name'];
 $coment = $_POST['coments-coment'];
@@ -8,7 +8,7 @@ $coment = $_POST['coments-coment'];
 // VALUES('$usuario','$coment','$data')");
 $insert = ("INSERT INTO post_coments(usuario,coment) VALUES('$usuario','$coment')");
 
-$sql = "SELECT * FROM post_coments ORDER BY id desc";
+$sql = "SELECT * FROM post_coments ORDER BY id desc"; -->
 
 
 // INSERT INTO post_coments (usuario, coment) VALUES ('João','tedede');
