@@ -9,7 +9,7 @@ require_once("conexao.php");
     $stmt -> bindValue ('us', $nome);
     $stmt -> bindValue ('cm', $comentario);
     $stmt -> execute ();
-
+    
     if ($stmt->rowCount() == 0) {   
         echo "<script>alert('Erro ao cadastrar comentario!');</script>";
     }else {
