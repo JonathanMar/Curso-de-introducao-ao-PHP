@@ -1,7 +1,10 @@
 <?php
-define('HOST', 'localhost');
-define('USUARIO', 'root');
-define('SENHA', '');
-define('DB', 'bd_coments');
+// Conexão com o banco de dados
+try {   
+    $pdo = new PDO("mysql:dbname=bd_coments;host=localhost","root","");
+} catch (PDOException $e) {
+    echo "Erro com o banco de dados: ".$e->getMessage();
 
-$conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não foi possível conectar: ');
+} catch (Exception $e) {
+    echo "Erro ao conectar, favor contactar o Suporte!";
+}

@@ -1,6 +1,6 @@
 <?php
 
-include("..\aulas\menu.php");
+// include("..\aulas\menu.php");
 
 // Funções para Strings 
 // strtoupper

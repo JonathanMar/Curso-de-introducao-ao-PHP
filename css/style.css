@@ -91,6 +91,7 @@ h1, h2, h3 {
 .coments-title {
     margin-top: 60px;
     text-align: center;
+    font-size: larger;
 }
 
 .coments-container {
@@ -122,16 +123,24 @@ h1, h2, h3 {
     text-transform: uppercase;  
 }
 
+input::placeholder, textarea::placeholder{
+    color: white; 
+}
+
+input, textarea {
+    margin: 5px;
+    padding: 15px;
+    background-color: #3b4148; 
+    border-radius: 10px;
+    border: 0;
+}
+
+input,  textarea, placeholder {
+    color: white;
+}
+
 @media (max-width: 999px) {
     .coments-container{
         margin: auto;
     }
 }
-
-/* input, textarea {
-    border-color: #2c3e50;
-}
-
-input, textarea:hover {
-    border-color: #2c3e50;
-} */

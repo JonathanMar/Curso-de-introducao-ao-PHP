@@ -1,6 +1,6 @@
 <?php
 
-include("..\aulas\menu.php");
+// include("..\aulas\menu.php");
 
 $nomes = array("Primo"=>"Gustavo","Amigo"=>"Leandro","Vizinho"=>"Carlos","Irmão"=>"Roberto");
 

@@ -1,7 +1,6 @@
 <?php
 
-include("..\aulas\menu.php");
-
+// include("..\aulas\menu.php");
 
 for ($contador = 0; $contador <= 10; $contador++):
     echo "5 X $contador = ".($contador*5)."<br>";

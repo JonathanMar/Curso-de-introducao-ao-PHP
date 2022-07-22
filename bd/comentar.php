@@ -1,24 +1,17 @@
 <?php
-include ('conexao.php');
-$usuario = $_POST['coments-name'];
-$coment = $_POST['coments-coment'];
-// $data = date("Y-m-d H:i:s");
+require_once("conexao.php");
 
-// $insert = ("INSERT INTO post_coments(usuario,coment,data) 
-// VALUES('$usuario','$coment','$data')");
-$insert = ("INSERT INTO post_coments(usuario,coment) VALUES('$usuario','$coment')");
+    $nome = $_POST['coments-name'];
+    $comentario = $_POST['coments-coment'];
 
-$sql = "SELECT * FROM post_coments ORDER BY id desc";
+    $stmt = $pdo -> prepare("INSERT INTO post_coments (usuario,coment) VALUES (:us, :cm)");
 
+    $stmt -> bindValue ('us', $nome);
+    $stmt -> bindValue ('cm', $comentario);
+    $stmt -> execute ();
 
-// INSERT INTO post_coments (usuario, coment) VALUES ('João','tedede');
-
-
-// date_default_timezone_set('America/Sao_paulo');
-// $data = date("Y-m-d H:i:s");
-
-//     if ($usuario != '' && $coment != ''){
-//         $insert = ("INSERT INTO post_coments(usuario,coment,data) VALUES('$usuario','$coment','$data')");
-//     } else{
-//         echo "Error: Preencha todos os campos antes de enviar!";
-//     }
+    if ($stmt->rowCount() == 0) {   
+        echo "<script>alert('Erro ao cadastrar comentario!');</script>";
+    }else {
+        echo "<script>alert('Comentário salvo com sucesso!');</script>";
+    }
