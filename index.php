@@ -52,6 +52,7 @@
             <li><a href="aulas/23-upload/upload_multiplos.php" rel="next"> Upload de arquivos multiplos </a></li>
 
             <li><a href="aulas/ajax/coments.php" rel="next"> Teste Ajax </a></li>
+            <li><a href="aulas/game/xadrez.php" rel="next"> Game </a></li>
         </ul>
     </main>
 </div>

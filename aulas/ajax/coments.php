@@ -29,10 +29,9 @@
             <label for="coments-coment"> </label>
             <textarea id="coments-coment" name="coments-coment" cols="10" rows="10" placeholder="Deixe aqui o seu comentário!"></textarea>
 
-            <button class="coments-btn" type="submit" name="btn"> Publicar </button>
-            <!-- <h2> Comentário publicado com sucesso! </h2> -->
-            <!-- <h2> Erro! Preencha todos os campos! -->
+            <div class="coments-alert"> </div>
 
+            <button class="coments-btn" type="submit" name="btn"> Publicar </button>
         
             </form>
 
