@@ -6,5 +6,5 @@ try {
     echo "Erro com o banco de dados: ".$e->getMessage();
 
 } catch (Exception $e) {
-    echo "Erro ao conectar, favor contactar o Suporte!";
+    echo "Erro ao conectar, favor contactar o Suporte! ".$e->getMessage();
 }

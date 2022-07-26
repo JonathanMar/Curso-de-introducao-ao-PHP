@@ -107,9 +107,40 @@ h1, h2, h3 {
 
 .coments-box {
     width: 100%;
-    padding: 5px;
     border: solid;
     border-width: 1px;
+    margin: 10px 0px 10px 0px;
+    text-align: left;
+}
+
+.coments-box-username {
+    margin: 0px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #cac9ca;
+}
+
+.coments-box-coment {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.coments-box-data {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.coments-box-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.coments-box-image-clock{
+    width: 20px;
+    height: 15px;
 }
 
 .coments-btn {
@@ -123,6 +154,22 @@ h1, h2, h3 {
     text-transform: uppercase;  
 }
 
+/* MENSAGEM DE ALERTA */
+.coments-alert{
+    text-align: center;
+}
+
+.coments-alert-error {
+    animation-delay: 1000ms;
+    text-shadow: 1px 4px 10px rgb(0, 0, 0);
+    color: red;
+}
+
+.coments-alert-success {
+    animation-delay: 1000ms;
+    text-shadow: 1px 4px 10px rgb(0, 0, 0);
+    color: green;
+}
 input::placeholder, textarea::placeholder{
     color: white; 
 }
