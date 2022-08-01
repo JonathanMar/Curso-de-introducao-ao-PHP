@@ -19,7 +19,7 @@
 
                 <div class="coments-box-data"> 
                     <img src="../../img/user-clock.svg" title="Clock" class="coments-box-image-clock">    
-                    <?php echo $data_cmt .' às '. $hora_cmt ?> 
+                    <div class="coments-box-hora"> <?php echo $data_cmt .' às '. $hora_cmt ?> </div>
                 </div> 
         </div>
         

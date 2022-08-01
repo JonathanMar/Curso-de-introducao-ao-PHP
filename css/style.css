@@ -130,6 +130,8 @@ h1, h2, h3 {
     padding: 5px;
     border-radius: 5px;
     background-color: #ffffff;
+    display: flex;
+    align-items: stretch;
 }
 
 .coments-box-image {
@@ -139,8 +141,12 @@ h1, h2, h3 {
 }
 
 .coments-box-image-clock{
-    width: 20px;
-    height: 15px;
+    width: 3.5%;
+    margin-right: 4px;
+}
+
+.coments-box-hora {
+    font-size: 17px;
 }
 
 .coments-btn {
@@ -170,6 +176,7 @@ h1, h2, h3 {
     text-shadow: 1px 4px 10px rgb(0, 0, 0);
     color: green;
 }
+
 input::placeholder, textarea::placeholder{
     color: white; 
 }
@@ -184,6 +191,9 @@ input, textarea {
 
 input,  textarea, placeholder {
     color: white;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #3b4148 inset;
 }
 
 @media (max-width: 999px) {
