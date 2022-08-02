@@ -22,6 +22,5 @@
                     <?php echo $data_cmt .' às '. $hora_cmt ?> 
                 </div> 
         </div>
-        
         <?php
     endwhile;

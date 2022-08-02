@@ -7,8 +7,8 @@
     date_default_timezone_set('America/Sao_Paulo'); // Define o horário padrão para datas.
 
     // Pegando dados inseridos nos campos da tabela.
-    $nome = $_POST['coments-name'];
-    $comentario = $_POST['coments-coment'];
+    $nome = isset($_POST['coments-name']) ? htmlspecialchars($_POST['coments-name']) : '';
+    $comentario = isset($_POST['coments-coment']) ? htmlspecialchars($_POST['coments-coment']) : '';
     $data_cmt = date('d/m/y');
     $hora_cmt = date('h:i');
 
@@ -29,7 +29,7 @@
 
             // Mensagem de retorno sobre o cadastro.
             if ($stmt->rowCount() == 0) {   
-                header("Location: http://localhost/sites/Curso-de-introducao-ao-PHP/aulas/ajax/coments.php");
+                header("Location: http://192.168.1.129/sites/Curso-de-introducao-ao-PHP/aulas/ajax/coments.php");
 
                 $_SESSION['msg'] = "<p class='coments-alert-error'> Erro ao cadastrar comentário!</p>";
                 echo "<script>alert('Erro ao cadastrar comentário!');</script>";
