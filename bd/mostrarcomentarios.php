@@ -22,6 +22,5 @@
                     <div class="coments-box-hora"> <?php echo $data_cmt .' às '. $hora_cmt ?> </div>
                 </div> 
         </div>
-        
         <?php
     endwhile;
