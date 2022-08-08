@@ -10,34 +10,33 @@
 
 <?php
 
-include("..\aulas\menu.php");
+    if(isset($_POST['enviar-formulario'])):
+        $formatosPermitidos = array("png", "jpeg", "jpg", "gif");
+        $quantidadeArquivos = count($_FILES['arquivos']['name']);
+        $contador = 0;
 
-if(isset($_POST['enviar-formulario'])):
-    $formatosPermitidos = array("png", "jpeg", "jpg", "gif");
-    $quantidadeArquivos = count($_FILES['arquivos']['name']);
-    $contador = 0;
+        while ($contador < $quantidadeArquivos){
 
-    while ($contador < $quantidadeArquivos){
+        $extensao = pathinfo($_FILES['arquivos'][$contador], PATHINFO_EXTENSION);
 
-    $extensao = pathinfo($_FILES['arquivos'][$contador], PATHINFO_EXTENSION);
+        if(in_array($extensao, $formatosPermitidos)):
+            $pasta = "arquivos/";
+            $temporario = $_FILES['arquivo']['tmp_name'][$contador];
+            $novoNome = uniqid().".$extensao";
 
-    if(in_array($extensao, $formatosPermitidos)):
-        $pasta = "arquivos/";
-        $temporario = $_FILES['arquivo']['tmp_name'][$contador];
-        $novoNome = uniqid().".$extensao";
-
-        if(move_uploaded_file($temporario, $pasta.$novoNome)):
-           echo "Upload feito com sucesso para a $pasta.$novoNome <br>";
-        else:
-            echo "Erro ao enviar o arquivo $temporario <br>";
+            if(move_uploaded_file($temporario, $pasta.$novoNome)):
+            echo "Upload feito com sucesso para a $pasta.$novoNome <br>";
+            else:
+                echo "Erro ao enviar o arquivo $temporario <br>";
+            endif;
+            else:
+                echo "$extensao não é permitida! <br>";
         endif;
-        else:
-            echo "$extensao não é permitida! <br>";
-    endif;
 
-        $contador++;
-    }
-endif;
+            $contador++;
+        }
+    endif;
+    
 ?>
     
     <h3> Formatos Permitidos: png, jpg, gif. </h3>

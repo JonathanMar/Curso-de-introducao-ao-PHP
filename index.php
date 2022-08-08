@@ -50,6 +50,8 @@
             <li><a href="aulas/22-formularios/validacao.php" rel="next"> Validação de dados </a></li>
             <li><a href="aulas/23-upload/upload.php" rel="next"> Upload de arquivos </a></li>
             <li><a href="aulas/23-upload/upload_multiplos.php" rel="next"> Upload de arquivos multiplos </a></li>
+            <li><a href="aulas\24-sessoes\home.php" rel="next"> Sessões </a></li>
+            <li><a href="aulas\25-sistemadelogin\index.php" rel="next"> Sistema de Login </a></li>
 
             <li><a href="aulas/ajax/coments.php" rel="next"> Teste Ajax </a></li>
             <li><a href="aulas/game/xadrez.php" rel="next"> Game </a></li>
